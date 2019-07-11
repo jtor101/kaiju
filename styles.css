@@ -39,16 +39,9 @@ nav ul li a:hover {
         font-size: 0.75em;
     }
     h2 {
-        font-size: 1.2em;
-    }
-    h3 {
         font-size: 1.0em;
     }
     p {
-        font-size: 0.9em;
-    }
-    .artleft,
-    .artright {
         font-size: 0.7em;
     }
 }
