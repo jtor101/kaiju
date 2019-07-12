@@ -46,6 +46,15 @@ footer {
     background-color: black;
 }
 
+footer a:hover {
+    color: white;
+}
+
+.radioalign {
+    position: relative;
+    bottom: 10px;
+}
+
 @media (max-width: 700px) {
     nav ul li {
         width: 16%;
@@ -57,6 +66,11 @@ footer {
         font-size: 1.0em;
     }
     p {
+        font-size: 0.7em;
+    }
+    label,
+    legend,
+    option {
         font-size: 0.7em;
     }
     footer {
