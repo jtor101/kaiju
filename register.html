@@ -16,7 +16,9 @@
 <body>
     <div class="container-fluid">
         <header class="row">
-            <h1 class="jumbotron col-12 text-center">Kaiju Big Battel</h1>
+            <div class="jumbotron col-12 text-center">
+                <h1>Kaiju Big Battel</h1>
+            </div>
         </header>
 
         <main>
@@ -42,26 +44,89 @@
                     </li>
                 </ul>
             </nav>
+            <section>
 
-            <section class="row">
-                <div class="col-4">
-                    <h2>This is a heading about a topic</h2>
-                    <p class="artleft">With a purposeful grimace and a terrible sound, he pulls the spitting high-tension wires down. Helpless people on subway trains scream, bug-eyed, as he looks in on them. He picks up a bus and he throws it back down as he wades through
-                        the buildings toward the center of town. Oh, no, they say he's got to go, go, go, Godzilla (yeah). Oh, no, there goes Tokyo, go, go, Godzilla (yeah). Oh, no, they say he's got to go, go, go, Godzilla (yeah). Oh, no, there goes
-                        Tokyo, go, go, Godzilla (yeah). Godzilla!</p>
+                <div class="row">
+                    <form class="pb-5 pt-5 col-10 justify-content-center offset-1 text-center">
+
+                        <!-- First Name, Last Name -->
+
+                        <div class="form-row">
+                            <div class="col pb-4">
+                                <label for="kbfirstname">First Name: </label>
+                                <input type="text" class="form-control" id="kbfirstname" placeholder="Burger">
+                            </div>
+
+                            <div class="col"><label for="kblastname">Last Name: </label>
+                                <input type="text" class="form-control" id="kblastname" placeholder="Bear">
+                            </div>
+                        </div>
+
+                        <!-- Email Address, Password -->
+
+                        <div class="form-row">
+                            <div class="col pb-4">
+                                <label for="kbemail">Email Address: </label>
+                                <input type="email" class="form-control" id="kbemail" placeholder="burgerbear@kaiju.com">
+                            </div>
+
+                            <div class="col"><label for="kbpassword">Password: </label>
+                                <input type="password" class="form-control" id="kbpassword" placeholder="Password">
+                            </div>
+                        </div>
+
+                        <!-- Phone Number, Phone Number Type -->
+
+                        <div class="form-row">
+                            <div class="col-6 pb-4">
+                                <label for="kbphone">Phone Number: </label>
+                                <input type="tel" class="form-control" id="kbphone" placeholder="860-867-5309">
+                            </div>
+
+                            <fieldset class="row col-4 offset-1 justify-content-center radioalign">
+                                <legend class="col-form-label"><label>Phone Number Type: </label></legend>
+                                <div class="text-left radioalign offset-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                                        <label class="form-check-label" for="gridRadios1">
+                                          Mobile
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                                        <label class="form-check-label" for="gridRadios2">
+                                          Home
+                                        </label>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </div>
+
+                        <!-- Favorite KBB Monster Select, Other-->
+
+                        <div class="form-row">
+                            <div class="form-group col-6">
+                                <label for="exampleFormControlSelect1" class="justify-content-center">Your Favorite KBB Monster?: </label>
+                                <select class="form-control" id="exampleFormControlSelect1">
+                                      <option>Burger Bear</option>
+                                      <option>Unicorn Party</option>
+                                      <option>American Beetle</option>
+                                      <option>Dusto Bunny</option>
+                                      <option>Dr. Cube</option>
+                                      <option>Other</option>
+                                    </select>
+                            </div>
+                            <div class="col pb-4">
+                                <label for="kbother">If Other, Who?: </label>
+                                <input type="text" class="form-control" id="kbother" placeholder="Anyone but Double Unicorn Dark">
+                            </div>
+
+                        </div>
+                        <button type="submit" class="btn btn-primary mb-2 px-5 py-2">Register</button>
+
+                    </form>
                 </div>
-                <div class="col-4">
-                    <h2>This is a heading about a topic</h2>
-                    <p>With a purposeful grimace and a terrible sound, he pulls the spitting high-tension wires down. Helpless people on subway trains scream, bug-eyed, as he looks in on them. He picks up a bus and he throws it back down as he wades through
-                        the buildings toward the center of town. Oh, no, they say he's got to go, go, go, Godzilla (yeah). Oh, no, there goes Tokyo, go, go, Godzilla (yeah). Oh, no, they say he's got to go, go, go, Godzilla (yeah). Oh, no, there goes
-                        Tokyo, go, go, Godzilla (yeah). Godzilla!</p>
-                </div>
-                <div class="col-4">
-                    <h2>This is a heading about a topic</h2>
-                    <p class="artright">With a purposeful grimace and a terrible sound, he pulls the spitting high-tension wires down. Helpless people on subway trains scream, bug-eyed, as he looks in on them. He picks up a bus and he throws it back down as he wades through
-                        the buildings toward the center of town. Oh, no, they say he's got to go, go, go, Godzilla (yeah). Oh, no, there goes Tokyo, go, go, Godzilla (yeah). Oh, no, they say he's got to go, go, go, Godzilla (yeah). Oh, no, there goes
-                        Tokyo, go, go, Godzilla (yeah). Godzilla!</p>
-                </div>
+
             </section>
         </main>
         <footer class="row">
@@ -69,7 +134,7 @@
                 Copyright Kaiju Big Battel 2019
             </div>
             <div class="col-6 text-center text-white">
-                email@email.com
+                <a href="mailto:someone@example.com?Subject=Hello%20again" target="_top">kaiju@kaiju.com</a>
             </div>
         </footer>
     </div>
