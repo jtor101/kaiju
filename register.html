@@ -14,7 +14,9 @@
 </head>
 
 <body>
+
     <div class="container-fluid">
+
         <header class="row">
             <div class="jumbotron col-12 text-center">
                 <h1>Kaiju Big Battel - Registration</h1>
@@ -22,6 +24,8 @@
         </header>
 
         <main>
+
+            <!-- Begin Nav -->
             <nav class="row">
                 <ul class="nav justify-content-center col-12">
                     <li class="nav-item">
@@ -44,14 +48,16 @@
                     </li>
                 </ul>
             </nav>
+
+
+            <!-- Form Area begins-->
             <section>
 
                 <div class="row">
                     <h2 class="col text-center font-italic pt-3">Join The Kaiju Big Battel Fighto Club!</h2>
                     <form class="pb-5 pt-5 col-10 justify-content-center offset-1 text-center" action="login.html">
 
-                        <!-- First Name, Last Name -->
-
+                        <!-- Row 1: First Name, Last Name -->
                         <div class="form-row">
                             <div class="col pb-4 pr-5">
                                 <label for="kbfirstname">First Name: </label>
@@ -63,8 +69,7 @@
                             </div>
                         </div>
 
-                        <!-- Email Address, Password -->
-
+                        <!-- Row 2: Email Address, Password (has required) -->
                         <div class="form-row">
                             <div class="col pb-4 pr-5">
                                 <label for="kbemail">Email Address: </label>
@@ -76,8 +81,7 @@
                             </div>
                         </div>
 
-                        <!-- Phone Number, Phone Number Type -->
-
+                        <!-- Row 3: Phone Number, Phone Number Type Radios -->
                         <div class="form-row">
                             <div class="col-6 pb-4 pr-4">
                                 <label for="kbphone">Phone Number: </label>
@@ -103,8 +107,7 @@
                             </fieldset>
                         </div>
 
-                        <!-- Favorite KBB Monster Select, Other-->
-
+                        <!-- Row 4: Favorite KBB Monster Select, Other-->
                         <div class="form-row">
                             <div class="form-group col-6 pr-4">
                                 <label for="kbfavmonster" class="justify-content-center">Your Favorite KBB Monster?: </label>
@@ -121,15 +124,19 @@
                                 <label for="kbother">If Other, Who?: </label>
                                 <input type="text" class="form-control" id="kbother" name="kbother" placeholder="Anyone but Double Unicorn Dark">
                             </div>
-
                         </div>
+
+                        <!-- Register button links to login.html -->
                         <button type="submit" class="btn btn-primary mb-2 px-5 py-2">Register</button>
 
                     </form>
                 </div>
 
             </section>
+
         </main>
+
+        <!-- Footer -->
         <footer class="row">
             <div class="col-6 text-center text-white">
                 Copyright Kaiju Big Battel 2019
@@ -139,6 +146,7 @@
             </div>
         </footer>
     </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
