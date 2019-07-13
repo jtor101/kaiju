@@ -6,6 +6,9 @@ body {
     background-color: rgba(255, 0, 0, .75);
 }
 
+
+/* Begin Nav */
+
 nav {
     position: relative;
     bottom: 35px;
@@ -34,6 +37,9 @@ nav ul li a:hover {
     border: 1px white thin;
 }
 
+
+/* Section CSS, replace eventually? */
+
 section {
     position: relative;
     bottom: 35px;
@@ -42,6 +48,9 @@ section {
 section div {
     background-color: white;
 }
+
+
+/* Begin Footer */
 
 footer {
     position: relative;
@@ -53,10 +62,16 @@ footer a:hover {
     color: white;
 }
 
+
+/* .radioalign is applied to radio buttons on register.html */
+
 .radioalign {
     position: relative;
     bottom: 10px;
 }
+
+
+/* 700px determined through testing to be optimal size for font/nav reduction */
 
 @media (max-width: 700px) {
     nav ul li {
@@ -68,7 +83,9 @@ footer a:hover {
     h1 {
         font-size: 1.5em;
     }
-    h2,
+    h2 {
+        font-size: 1.2em;
+    }
     h3 {
         font-size: 1.0em;
     }
