@@ -14,7 +14,9 @@
 </head>
 
 <body>
+
     <div class="container-fluid">
+
         <header class="row">
             <div class="jumbotron col-12 text-center">
                 <h1>Kaiju Big Battel - Login</h1>
@@ -22,6 +24,8 @@
         </header>
 
         <main>
+
+            <!-- Begin Nav -->
             <nav class="row">
                 <ul class="nav justify-content-center col-12">
                     <li class="nav-item">
@@ -44,45 +48,55 @@
                     </li>
                 </ul>
             </nav>
+
             <section>
 
                 <div class="row">
+
+                    <h2 class="col text-center font-italic pt-3">Login To Your KBB FC Account!</h2>
+
+                    <!-- Begin Form -->
                     <form class="pb-5 pt-5 col-10 justify-content-center offset-1 text-center" action="interact.html">
 
                         <!-- Email Address, Password -->
-
                         <div class="form-row">
                             <div class="col pb-4 pr-5">
                                 <label for="kbemail">Email Address: </label>
                                 <input type="email" class="form-control" id="kbemail" placeholder="burgerbear@kaiju.com">
                             </div>
 
+                            <!-- Password form has required -->
                             <div class="col"><label for="kbpassword">Password: </label>
                                 <input type="password" class="form-control" id="kbpassword" placeholder="Password" required>
                             </div>
                         </div>
 
+                        <!-- Remember Me -->
                         <div class="form-row">
                             <div class="col pb-4">
                                 <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="" id="remember">
                                     <label class="form-check-label" for="remember">
-                              Remember me!
-                            </label>
+                                        Remember me!
+                                    </label>
                                 </div>
                             </div>
-
                         </div>
+
+                        <!-- Submit button links to interact.html -->
                         <div class="col">
                             <button type="submit" class="btn btn-primary mb-2 px-5 py-2">Login</button>
                         </div>
 
-
                     </form>
+
                 </div>
 
             </section>
+
         </main>
+
+        <!-- Footer -->
         <footer class="row">
             <div class="col-6 text-center text-white">
                 Copyright Kaiju Big Battel 2019
@@ -91,7 +105,9 @@
                 <a href="mailto:kaiju@kaiju.com" target="_top">kaiju@kaiju.com</a>
             </div>
         </footer>
+
     </div>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
