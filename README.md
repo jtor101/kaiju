@@ -5,7 +5,7 @@ Kaiju Big Battel Website Reimagining by John Torres
 (domain name already owned by company)  
   
 
-2) Purpose/Goals - The Kaiju Big Battel website is rather outdated.  This provided the inspiration
+2) Purpose/Goals - The Kaiju Big Battel website is rarely updated.  This provided the inspiration
 to try my hand at creating a website of my own that they might be able to utilize.  Even if they decided not to use it as their company site, it could still be deployed as a fansite.  
   
 3) Intended Audience - Professional wrestling fans, Kaiju Big Battel fans, fans of monster films  
