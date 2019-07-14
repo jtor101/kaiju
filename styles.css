@@ -1,9 +1,9 @@
 body {
-    background-color: gray;
+    background-color: rgba(255, 0, 0, 1);
 }
 
 .jumbotron {
-    background-color: rgba(255, 0, 0, .75);
+    background-color: rgba(255, 0, 0, 1);
 }
 
 
@@ -95,6 +95,9 @@ footer a:hover {
     label,
     legend,
     option {
+        font-size: 0.7em;
+    }
+    table {
         font-size: 0.7em;
     }
     footer {
