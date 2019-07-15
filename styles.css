@@ -1,53 +1,36 @@
-body {
-    background-color: rgba(255, 0, 0, 1);
-}
+/* Red Background Color */
 
+body,
 .jumbotron {
     background-color: rgba(255, 0, 0, 1);
 }
 
 
-/* Begin Nav */
-
-nav {
-    position: relative;
-    bottom: 35px;
-}
+/* Nav Spacing */
 
 nav ul li {
     width: 16%;
-    border: 1px white solid;
 }
 
-nav ul li a {
-    color: white;
-    font-size: 1em;
+
+/* Nav, Section, and Footer Positioning */
+
+main {
+    bottom: 35px;
 }
+
+
+/* Radio Button Positioning - .radioalign is applied to radio buttons on register.html */
+
+.radioalign {
+    bottom: 10px;
+}
+
+
+/* Nav and Footer Hover Classes */
 
 nav ul li a:hover {
-    color: green;
-    border: 1px white thin;
     background-color: black;
-}
-
-
-/* Section CSS, replace eventually? */
-
-section {
-    position: relative;
-    bottom: 35px;
-}
-
-section div {
-    background-color: white;
-}
-
-
-/* Begin Footer */
-
-footer {
-    position: relative;
-    bottom: 35px;
 }
 
 footer a:hover {
@@ -55,20 +38,11 @@ footer a:hover {
 }
 
 
-/* .radioalign is applied to radio buttons on register.html */
+/* Media Queries
 
-.radioalign {
-    position: relative;
-    bottom: 10px;
-}
-
-
-/* 900px - Landscape: Pixel 2 XL, iPhone X. Portrait: iPad   */
+900px - Landscape: Pixel 2 XL, iPhone X. Portrait: iPad   */
 
 @media (max-width: 900px) {
-    nav ul li {
-        width: 16%;
-    }
     nav ul li a {
         font-size: 0.85em;
     }
@@ -101,9 +75,6 @@ footer a:hover {
 /* 740px - Landscape: Galaxy S5, Pixel 2, iPhone 5/6/7/8/8+  */
 
 @media (max-width: 740px) {
-    nav ul li {
-        width: 16%;
-    }
     nav ul li a {
         font-size: 0.75em;
     }
@@ -136,9 +107,6 @@ footer a:hover {
 /* 420px - Portrait: Galaxy S5, Pixel 2/2 XL, iPhone 5/6/7/8/8+/X  */
 
 @media (max-width: 420px) {
-    nav ul li {
-        width: 16%;
-    }
     nav ul li a {
         font-size: 0.45em;
     }
