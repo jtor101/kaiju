@@ -88,7 +88,7 @@ footer a:hover {
         font-size: 1.0em;
     }
     p {
-        font-size: 0.7em;
+        font-size: 0.8em;
     }
     label,
     legend,
@@ -99,6 +99,12 @@ footer a:hover {
         font-size: 0.7em;
     }
     footer {
+        font-size: 0.7em;
+    }
+}
+
+@media (max-width: 640px) {
+    p {
         font-size: 0.7em;
     }
 }
@@ -120,7 +126,7 @@ footer a:hover {
         font-size: 0.7em;
     }
     p {
-        font-size: 0.4em;
+        font-size: 0.5em;
     }
     label,
     legend,
@@ -131,6 +137,15 @@ footer a:hover {
         font-size: 0.4em;
     }
     footer {
+        font-size: 0.4em;
+    }
+}
+
+
+/* 320px - Portrait: iPhone 5/SE */
+
+@media (max-width: 320px) {
+    p {
         font-size: 0.4em;
     }
 }
