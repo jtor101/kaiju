@@ -71,7 +71,42 @@ footer a:hover {
 }
 
 
-/* 700px determined through testing to be optimal size for font/nav reduction */
+/* 900px */
+
+@media (max-width: 900px) {
+    nav ul li {
+        width: 16%;
+    }
+    nav ul li a {
+        font-size: 0.85em;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    h3 {
+        font-size: 1.1em;
+    }
+    p {
+        font-size: 0.8em;
+    }
+    label,
+    legend,
+    option {
+        font-size: 0.8em;
+    }
+    table {
+        font-size: 0.8em;
+    }
+    footer {
+        font-size: 0.8em;
+    }
+}
+
+
+/* 700px */
 
 @media (max-width: 700px) {
     nav ul li {
@@ -102,5 +137,40 @@ footer a:hover {
     }
     footer {
         font-size: 0.7em;
+    }
+}
+
+
+/* 420px */
+
+@media (max-width: 420px) {
+    nav ul li {
+        width: 16%;
+    }
+    nav ul li a {
+        font-size: 0.45em;
+    }
+    h1 {
+        font-size: 1.2em;
+    }
+    h2 {
+        font-size: 0.9em;
+    }
+    h3 {
+        font-size: 0.7em;
+    }
+    p {
+        font-size: 0.4em;
+    }
+    label,
+    legend,
+    option {
+        font-size: 0.4em;
+    }
+    table {
+        font-size: 0.4em;
+    }
+    footer {
+        font-size: 0.4em;
     }
 }
