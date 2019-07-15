@@ -72,7 +72,7 @@ footer a:hover {
 }
 
 
-/* 740px - Landscape: Galaxy S5, Pixel 2, iPhone 5/6/7/8/8+  */
+/* 740px - Landscape: Pixel 2, iPhone 6/7/8/8+  */
 
 @media (max-width: 740px) {
     nav ul li a {
@@ -103,6 +103,9 @@ footer a:hover {
     }
 }
 
+
+/* 640px - Landscape: Galaxy S5, iPhone 5/SE */
+
 @media (max-width: 640px) {
     p {
         font-size: 0.7em;
@@ -110,7 +113,7 @@ footer a:hover {
 }
 
 
-/* 420px - Portrait: Galaxy S5, Pixel 2/2 XL, iPhone 5/6/7/8/8+/X  */
+/* 420px - Portrait: Galaxy S5, Pixel 2/2 XL, iPhone 6/7/8/8+/X  */
 
 @media (max-width: 420px) {
     nav ul li a {
