@@ -153,51 +153,56 @@
                             <div class="form-group col-12">
                                 <label for="kbeventchoice" class="justify-content-center">Event Tickets Desired: </label>
                                 <select class="form-control" id="kbeventchoice" name="kbeventchoice"> 
-                                                        <option>11/9/2019 -  Twice Upon A Time - Once Ballroom (Somerville, MA)</option>
-                                                        <option>11/10/2019 - Kaiju For Kidz II - Once Ballroom (Somerville, MA)</option>
-                                                        <option>1/18/2020 -  Unicorn Family Matters - The Orpheum (Tampa, FL)</option></select>
-
+                                    <option>11/9/2019 -  Twice Upon A Time - Once Ballroom (Somerville, MA)</option>
+                                    <option>11/10/2019 - Kaiju For Kidz II - Once Ballroom (Somerville, MA)</option>
+                                    <option>1/18/2020 -  Unicorn Family Matters - The Orpheum (Tampa, FL)</option>
+                                </select>
                             </div>
                         </div>
+
                         <!-- Logout button links to index.html -->
-                        <div class="pt-3">
-                            <button type="submit" id="submit" class="btn btn-primary mb-2 mr-4 px-5 py-2">Submit</button>
-                            <input type="reset" class="btn btn-warning mb-2 ml-4 px-5 py-2">
-                        </div>
                         <div class="form-row">
-                            <div class="col-12 bg-light text-center">
-                                <a class="btn btn-danger my-3 px-5 py-2" href="index.html" role="button">Logout</a>
+                            <div class="form-group col-12">
+                                <button type="submit" id="submit" class="btn btn-primary mb-2 px-5 py-2">Submit</button>
+                                <input type="reset" class="btn btn-warning mb-2 px-5 py-2">
                             </div>
                         </div>
                     </form>
                 </div>
 
+                <!-- Table populates with form information -->
                 <div class="row bg-light">
-                    <table id="details" class="table table-bordered table-hover text-center">
-                        <caption>KBB FC Member Order Information</caption>
-                        <thead class="bg-dark text-white">
-                            <tr>
-                                <td scope="col">First Name: </td>
-                                <td scope="col">Last Name: </td>
-                                <td scope="col">Email Address: </td>
-                                <td scope="col">Password: </td>
-                                <td scope="col">Number of Tickets: </td>
-                                <td scope="col">Tier of Tickets: </td>
-                                <td scope="col">Event Tickets Desired: </td>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                                <td></td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="col">
+                        <h2 class="col text-center font-italic">Your KBB FC Ticket Order Information!</h2>
+                        <table id="details" class="table table-bordered table-hover text-center">
+                            <caption>KBB FC Member Order Information</caption>
+                            <thead class="bg-dark text-white">
+                                <tr>
+                                    <td scope="col">First Name: </td>
+                                    <td scope="col">Last Name: </td>
+                                    <td scope="col">Email Address: </td>
+                                    <td scope="col">Number of Tickets: </td>
+                                    <td scope="col">Tier of Tickets: </td>
+                                    <td scope="col">Event Tickets Desired: </td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 bg-light text-center">
+                        <a class="btn btn-danger my-3 px-5 py-2" href="index.html" role="button">Logout</a>
+                    </div>
                 </div>
 
             </section>
