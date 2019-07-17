@@ -62,12 +62,12 @@
                         <div class="form-row">
                             <div class="col pb-5 pr-5">
                                 <label for="kbfirstname">First Name: </label>
-                                <input type="text" class="form-control" id="kbfirstname" name="kbfirstname" placeholder="Burger">
+                                <input type="text" class="form-control" id="kbfirstname" name="kbfirstname" placeholder="Burger" maxlength="20" required>
                             </div>
 
                             <div class="col">
                                 <label for="kblastname">Last Name: </label>
-                                <input type="text" class="form-control" id="kblastname" name="kblastname" placeholder="Bear">
+                                <input type="text" class="form-control" id="kblastname" name="kblastname" placeholder="Bear" maxlength="20" required>
                             </div>
                         </div>
 
@@ -75,11 +75,11 @@
                         <div class="form-row">
                             <div class="col pb-5 pr-5">
                                 <label for="kbemail">Email Address: </label>
-                                <input type="email" class="form-control" id="kbemail" name="kbemail" placeholder="burgerbear@kaiju.com">
+                                <input type="email" class="form-control" id="kbemail" name="kbemail" placeholder="burgerbear@kaiju.com" maxlength="30" required>
                             </div>
 
                             <div class="col"><label for="kbpassword">Password: </label>
-                                <input type="password" class="form-control" id="kbpassword" name="kbpassword" placeholder="Password" aria-describedby="kbpasswordhelp" required>
+                                <input type="password" class="form-control" id="kbpassword" name="kbpassword" placeholder="Password" aria-describedby="kbpasswordhelp" maxlength="14" required>
                                 <small id="kbpasswordhelp" class="form-text text-muted">
                                         Must be 7-14 characters long
                                     </small>
@@ -100,7 +100,7 @@
 
                             <div class="col pl-4">
                                 <label for="kbpasswordconf">Confirm Password: </label>
-                                <input type="password" class="form-control" id="kbpasswordconf" name="kbpasswordconf" placeholder="Confirm Password" required>
+                                <input type="password" class="form-control" id="kbpasswordconf" name="kbpasswordconf" placeholder="Confirm Password" maxlength="14" required>
                             </div>
                         </div>
 
@@ -108,7 +108,7 @@
                         <div class="form-row">
                             <div class="col-6 pb-5 pr-4">
                                 <label for="kbphone">Phone Number: </label>
-                                <input type="tel" class="form-control" name="kbphone" id="kbphone" placeholder="860-867-5309">
+                                <input type="tel" class="form-control" name="kbphone" id="kbphone" placeholder="860-867-5309" maxlength="12" required>
                             </div>
 
                             <fieldset class="row col-4 offset-1 radioalign">
