@@ -79,7 +79,10 @@
                             </div>
 
                             <div class="col"><label for="kbpassword">Password: </label>
-                                <input type="password" class="form-control" id="kbpassword" name="kbpassword" placeholder="Password" required>
+                                <input type="password" class="form-control" id="kbpassword" name="kbpassword" placeholder="Password" aria-describedby="kbpasswordhelp" required>
+                                <small id="kbpasswordhelp" class="form-text text-muted">
+                                        Must be 7-14 characters long
+                                    </small>
                             </div>
                         </div>
 
